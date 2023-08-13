@@ -1,0 +1,220 @@
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+}
+.cardButton {
+    margin-left: 5%;
+}
+.cardButton img {
+    width: 30px;
+}
+.contact {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    margin-left: 10%;
+    align-items: center;
+}
+.call {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    margin-left: 10%;
+    align-items: center;
+}
+.newsletter {
+    font-size: 15px;
+    color: rgb(24, 24, 24);
+    margin-left: 50%;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.naming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+footer {
+    background-color: rgb(203, 203, 203);
+    margin: 0;
+    height: 200px;
+    bottom: 0;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+}
+.footer-icons {
+    width: 20%;
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+.call button {
+    border: none;
+    background-color: rgb(197, 197, 197);
+}
+.call button:hover {
+    color: rgb(255, 85, 0);
+    transition: color 0.2s;
+}
+.modal-call {
+    position: fixed;
+    margin: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.785);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-call-active {
+    display: flex;
+}
+.modal-call-window {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-call-window .help {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.modal-call-window .call-us {
+    margin-bottom: 8;
+}
+.phone {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.newsletter button {
+    border: none;
+    background-color: rgb(197, 197, 197);
+    width: 159px;
+}
+.newsletter button:hover {
+    color: rgb(255, 85, 0);
+    transition: color 0.2s;
+}
+.modal-news {
+    position: fixed;
+    margin: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.785);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-news-active {
+    display: flex;
+}
+.modal-news-window {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.modal-news-window .subscribe {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.mail-input {
+    height: 40px;
+    font-size: 20px;
+}
+.rules {
+    margin-top: 25px;
+    font-weight: 100;
+    color: rgb(94, 94, 94);
+}
+.input-form {
+    display: flex;
+    width: 100%;
+}
+.send-button {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+
+.find-us {
+    border: none;
+    background-color: rgb(197, 197, 197);
+}
+.find-us:hover {
+    color: rgb(255, 85, 0);
+    transition: color 0.2s;
+}
+.modal-maps {
+    position: fixed;
+    margin: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.785);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-maps-active {
+    display: flex;
+}
+.modal-maps-window {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.how-to-find {
+    font-size: 25px;
+    margin-bottom: 10px;
+}

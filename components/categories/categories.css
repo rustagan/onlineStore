@@ -1,0 +1,74 @@
+.categories-container {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+.categories {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.carName {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    font-size: 17px;
+    color: aliceblue;
+}
+.category:hover .carName {
+    color: rgb(255, 85, 0);
+    transition: color 0.2s;
+}
+.modal {
+    display: none;
+}
+.modal-active{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 145px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.556);
+    display: flex;
+    z-index: 1;
+    height: 100%;
+}
+.category {
+    display: flex;
+    justify-content: center;
+}
+.subMenu {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 5px rgb(114, 114, 114); */
+    padding: 0 15px 15px 15px;
+    top:128px;
+    background-color: rgb(40, 40, 40);
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+}
+.subMenu-active {
+    display: flex;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.open {
+    opacity: 1;
+}
+.subCategoryName {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li {
+list-style-type: none;
+margin-top: 20px;
+}

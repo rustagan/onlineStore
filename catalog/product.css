@@ -1,0 +1,131 @@
+.page-header {
+    margin-top: 60px;
+    margin-left: 215px;
+    margin-bottom: 0;
+}
+
+.breadcrumbs {
+    max-width: 1300px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-top: -40px;
+}
+
+.breadcrumbs-list-item {
+    display: inline-block;
+    padding-right: 16px;
+    margin-right: 10px;
+    position: relative;
+    color: rgb(142, 142, 142);
+    font-size: 15px;
+}
+
+.breadcrumbs-list-item a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+
+.breadcrumbs-list-item::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    background-image: url(/img/angle-right.png);
+    width: 8px;
+    height: 8px;
+    top: 7px;
+}
+
+.breadcrumbs-list-item:last-child:after {
+    display: none;
+}
+
+.product-card {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.product-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap:wrap;
+    padding: 0;
+}
+
+.product-content {
+    margin-bottom: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: block;
+    color: rgb(19, 19, 19);
+    position: relative;
+    padding: 8px;
+}
+
+.product-page-link {
+    text-decoration: none;
+    display: block;
+}
+.product-page-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.product:hover .product-name{
+    color: rgb(255, 85, 0);
+    transition: color 0.2s;
+}
+.product-name {
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight:900;
+}
+.img-hide {
+    position: absolute;
+    opacity: 0;
+    top: 0; 
+    left: 0;
+    padding: 8px;
+}
+.product:hover .img-hide {
+    opacity: 1;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    padding: 8px;
+    transition: opacity 0.2s;
+}
+.add-to-card-button {
+    position: absolute;
+    opacity: 1;
+    margin-top: 5px;
+    background-color: white;
+    color: rgb(19, 19, 19);;
+    border-color: rgb(19, 19, 19);
+    padding: 5px;
+}
+.add-to-card-button:hover {
+    position: absolute;
+    opacity: 1;
+    margin-top: 5px;
+    background-color: rgb(19, 19, 19);;
+    color: white;
+    border-color: rgb(19, 19, 19);
+    padding: 5px;
+}

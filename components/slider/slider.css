@@ -1,0 +1,21 @@
+.slider {
+    /* position: relative; */
+    /* max-width: 99%; */
+    margin: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.slider-fade {
+    display: flex;
+    transition: all ease 1s;
+}
+.slider a {
+    font-size: 40px;
+    color: rgb(229, 229, 229);
+}
+.buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
