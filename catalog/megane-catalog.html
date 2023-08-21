@@ -13,7 +13,13 @@
 <body>
     <div class="header">
         <div class="cardButton">
-            <img src="/img/cardicon.png">
+            <button class="cardButton-img"><img class="cardButton-img" src="/img/cardicon.png"></button>
+            <div class="cart-modal">
+                <div class="cart-content">
+                    <div class="cart-container">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="contact">
             <button class="find-us">Найти нас</button>
@@ -63,9 +69,9 @@
                     Mercedes-benz&#9207;
                 </button>
                     <ul data-target="one" class="subMenu">
-                        <li><a class="subCategoryName" href="catalog\MB-Acl-catalog.html">A-classe AMG w177</a></li>
-                        <li><a class="subCategoryName" href="catalog\MB-Ccl-catalog.html">C-classe W204 rest.</a></li>
-                        <li><a class="subCategoryName" href="catalog\MB-Ecl-catalog.html">E-classe W212 rest.</a></li>
+                        <li><a class="subCategoryName" href="catalog/MB-Acl-catalog.html">A-classe AMG w177</a></li>
+                        <li><a class="subCategoryName" href="catalog/MB-Ccl-catalog.html">C-classe W204 rest.</a></li>
+                        <li><a class="subCategoryName" href="catalog/MB-Ecl-catalog.html">E-classe W212 rest.</a></li>
                     </ul>
             </div>
             <div class="category">
@@ -73,8 +79,8 @@
                     Renault&#9207;
                 </button>
                 <ul data-target="two" class="subMenu">
-                    <li><a class="subCategoryName" href="catalog\megane-catalog.html">Megane 2 RS</a></li>
-                    <li><a class="subCategoryName" href="catalog\clio-catalog.html">Clio 2 RS</a></li>
+                    <li><a class="subCategoryName" href="/catalog/megane-catalog.html">Megane 2 RS</a></li>
+                    <li><a class="subCategoryName" href="/catalog/clio-catalog.html">Clio 2 RS</a></li>
                 </ul>
             </div>
             <div class="category"> 
@@ -82,8 +88,8 @@
                     BMW&#9207;
                 </button>
                     <ul data-target="three" class="subMenu">
-                        <li><a class="subCategoryName" href="catalog\320-catalog.html">320 e92</a></li>
-                        <li><a class="subCategoryName" href="catalog\m2-catalog.html">M2 f87</a></li>
+                        <li><a class="subCategoryName" href="/catalog/320-catalog.html">320 e92</a></li>
+                        <li><a class="subCategoryName" href="/catalog/m2-catalog.html">M2 f87</a></li>
                     </ul>
             </div>  
         </div>
@@ -106,129 +112,10 @@
         </ul>
     </div>
 
+
     <div class="product-page">
         <div class="product-card">
-            <div class="product-container">
-                <div class="product-content">
-                    <div class="product" data-id="37">
-                        <div class="product-card-image">
-                            <img src="/img/splitter.jpg" class="product-card-image wrapped-img" alt="Front splitter">
-                            <img src="/img/splitter2.jpg" class="product-card-image img-hide" alt="Front splitter">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Сплиттер передний</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">190.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-content">
-                    <div class="product" data-id="38">
-                        <div class="product-card-image">
-                            <img src="/img/ducktail.jpg" class="product-card-image wrapped-img" alt="Ducktail">
-                            <img src="/img/ducktail2.jpg" class="product-card-image img-hide" alt="Ducktail">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Дактейл</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">120.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-content">
-                    <div class="product" data-id="39">
-                        <div class="product-card-image">
-                            <img src="/img/diffuser.jpg" class="product-card-image wrapped-img" alt="Duffiser">
-                            <img src="/img/diffuser2.jpg" class="product-card-image img-hide" alt="Duffiser">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Диффузор задний</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">250.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="items counter-wrapper">
-                    <div class="items__control" data-action="minus">-</div>
-                    <div class="items__current" data-counter>1</div>
-                    <div class="items__control" data-action="plus">+</div>
-                </div> -->
-                <div class="product-content">
-                    <div class="product" data-id="40">
-                        <div class="product-card-image">
-                            <img src="/img/elerons.jpg" class="product-card-image wrapped-img" alt="Eleron">
-                            <img src="/img/elerons2.jpg" class="product-card-image img-hide" alt="Eleron">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Элероны</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">80.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-content">
-                    <div class="product" data-id="41">
-                        <div class="product-card-image">
-                            <img src="/img/elerons.jpg" class="product-card-image wrapped-img" alt="Eleron">
-                            <img src="/img/elerons2.jpg" class="product-card-image img-hide" alt="Eleron">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Элероны</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">80.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-content">
-                    <div class="product" data-id="42">
-                        <div class="product-card-image">
-                            <img src="/img/elerons.jpg" class="product-card-image wrapped-img" alt="Eleron">
-                            <img src="/img/elerons2.jpg" class="product-card-image img-hide" alt="Eleron">
-                        </div>
-                        <a class="product-page-link">
-                            <h2 class="product-name">Элероны</h2>
-                        </a>
-                        <div class="product-price">
-                            <a class="price">80.00$</a>
-                        </div>
-                        <div class="add-to-card">
-                            <button class="add-to-card-button">
-                                Добавить в корзину
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
@@ -255,18 +142,23 @@
 
     <script src="/index.js"></script>
     
-    <!-- Корзина -->
-    <!-- <link rel="import" href="/components/cart/cart.html">
-    <script src="/components/cart/cart.js"></script>
-    <link rel="stylesheet" href="/components/cart/cart.css"> -->
-
     <!-- Категории и навигация -->
     <script src="/components/categories/categories.js"></script>
     <link rel="stylesheet" href="/components/categories/categories.css">
 
+    <!-- Локальное хранилище -->
+    <script src="/utils/localStorage.js"></script>
+    
+    <!-- каталог товаров -->
+    <script src="/catalog/product.js"></script>
+
     <!-- Карточки товаров -->
-    <script src="catalog\product.js"></script>
-    <link rel="stylesheet" href="catalog\product.css">
+    <script src="/catalog/catalog.js"></script>
+    <link rel="stylesheet" href="/catalog/catalog.css">
+
+    <!-- Корзина -->
+    <script src="/components/cart/cart.js"></script>
+    <link rel="stylesheet" href="/components/cart/cart.css">
 
 </body>
 </html>

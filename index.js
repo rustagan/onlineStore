@@ -48,3 +48,22 @@ function mapsModalRemove (event) {
 }
 findUs.addEventListener("click", mapsModal);
 window.addEventListener("click", mapsModalRemove);
+
+// окно корзины
+
+const cartButton = document.querySelector(".cardButton-img");
+const cartModal = document.querySelector(".cart-modal");
+function cartOpenModal () {
+    cartModal.classList.add("cart-modal-active");
+}
+function cartModalRemove (event) {
+    if ( event.target.className === "order-form-content" || event.target.className === "order-btn" || event.target.className === "number-form" || event.target.className === "order-form" || event.target.className === "order-title" || event.target.className === "order" || event.target.className === "cart-page-header" || event.target.className === "product-page-link" || event.target.className === "inner-product-container" || event.target.className === "page-header-modal" || event.target.className === "page-header" || event.target.className === "cardButton" || event.target.className === "cardButton-img" || event.target.className === "cart-modal" || event.target.className === "cart-content" || event.target.className === "cart-container" || event.target.className === "cart-product" || event.target.className === "cart-product-header" || event.target.className === "cart-product-img" || event.target.className === "cart-product-info" || event.target.className === "cart-product-img-modal" || event.target.className === "cart-product-name" || event.target.className === "cart-product-details" || event.target.className === "cart-product-amount" || event.target.className === "price" || event.target.className === "price-currency" || event.target.className === "cart-product-delete" || event.target.className === "cart-product-delete_button" || event.target.className === "empty-cart-container" || event.target.className === "total-price" || event.target.className === "total-price-container" || event.target.className === "total-price-value") {
+        return;  
+    }
+    else {
+        cartModal.classList.remove("cart-modal-active");
+        
+    }
+}
+cartButton.addEventListener("click", cartOpenModal);
+window.addEventListener("click", cartModalRemove);

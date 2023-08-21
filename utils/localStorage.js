@@ -6,7 +6,7 @@ class LocalStorageUtil {
     getProducts() {
         const productsLocalStorage = localStorage.getItem(this.keyName);
         if (productsLocalStorage !== null) {
-            return JSON.parse(productsLocalStorage);
+            return JSON.parse(productsLocalStorage);          
         }
         return [];
     }
@@ -19,7 +19,7 @@ class LocalStorageUtil {
         if (index === -1) {
             products.push(id);
             pushProduct = true;
-        } else {
+        } else { 
             products.splice(index, 1); 
         }
 

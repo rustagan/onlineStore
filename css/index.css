@@ -12,7 +12,20 @@ body {
 }
 .cardButton img {
     width: 30px;
+
 }
+
+.cardButton-img {
+    background-color: rgb(197, 197, 197);
+    border: 0;
+}
+
+.cardButton-img img:hover {
+    background-color: rgb(255, 85, 0);
+    transition: background-color 0.5s ;
+    border-radius: 5px;
+}
+
 .contact {
     font-size: 15px;
     color: rgb(24, 24, 24);

@@ -13,7 +13,13 @@
 <body>
     <div class="header">
         <div class="cardButton">
-            <img src="img/cardicon.png">
+            <button class="cardButton-img"><img class="cardButton-img" src="img/cardicon.png"></button>
+            <div class="cart-modal">
+                <div class="cart-content">
+                    <div class="cart-container">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="contact">
             <button class="find-us">Найти нас</button>
@@ -125,17 +131,18 @@
 
     <script src="/index.js"></script>
     
-    <!-- Корзина -->
-    <script src="/components/cart/cart.js"></script>
-    <link rel="stylesheet" href="/components/cart/cart.css">
+
 
     <!-- Категории и навигация -->
     <script src="/components/categories/categories.js"></script>
     <link rel="stylesheet" href="/components/categories/categories.css">
+    
+    <!-- каталог товаров -->
+    <script src="/catalog/product.js"></script>
 
     <!-- Карточки товаров -->
-    <script src="/catalog/product.js"></script>
-    <link rel="stylesheet" href="/catalog/product.css">
+    <script src="/catalog/catalog.js"></script>
+    <link rel="stylesheet" href="/catalog/catalog.css">
 
     <!-- Слайды -->
     <script src="/components/slider/slider.js"></script>
@@ -143,5 +150,10 @@
 
     <!-- Локальное хранилище -->
     <script src="/utils/localStorage.js"></script>
+
+    <!-- Корзина -->
+    <script src="/components/cart/cart.js"></script>
+    <link rel="stylesheet" href="/components/cart/cart.css">
+
 </body>
 </html>
