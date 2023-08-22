@@ -47,5 +47,12 @@ const CATALOGY = [
         imgSrc: '/onlineStore/img/elerons.jpg',
         imgSrc2: '/onlineStore/img/elerons2.jpg',
         price: '80'
+    },
+    {
+        id: 'el7',
+        name: 'Тест',
+        imgSrc: '/onlineStore/img/diffuser.jpg',
+        imgSrc2: '/onlineStore/img/elerons2.jpg',
+        price: '100000000000'
     }
 ];
