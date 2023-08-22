@@ -19,7 +19,6 @@ function roll() {
 }
 autoRoll();
 function init() {
-    console.log("resize");
     width = document.querySelector(".slider").offsetWidth;
     height = document.querySelector(".slider").offsetHeight;
     console.log(height);
