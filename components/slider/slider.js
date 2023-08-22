@@ -21,7 +21,6 @@ autoRoll();
 function init() {
     width = document.querySelector(".slider").offsetWidth;
     height = document.querySelector(".slider").offsetHeight;
-    console.log(height);
     sliderFade.style.width = width * images.length + "px";
     buttons.style.width = width - 50 + "px";
     buttons.style.top = height / 2 + 112 + "px";
